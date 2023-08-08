@@ -68,7 +68,7 @@
         border-bottom: 2px solid var(--main-color);
     }
     .nav-socials{
-        margin-left: 420px;
+        margin-left: 470px;
         position: relative;
         margin-top: -20px;
         padding: 0 15 15;
@@ -248,43 +248,57 @@ border: 2px solid var(--main-color);
        flex: wrap;
        gap: 20px;
     }
- section.contacts{ 
-    min-height: 40vh;
-    
-}  
+ .contacts{
+    min-height: 60vh;
+   
+ }
+ .contacts h3{
+    text-align: center;
+ }
+ .contact-box
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ .contact-box .contact-text{
+    padding: 3rem 7%;
+    margin-left: 30px;
+ }
+ .contact-text h5{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 50;
+ }
+.contact-text h5 span{
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+.contact-text h5 a{
+    font-size: 20px;
+    color: var(--main-color);
+}
 
-.socials{
-    display:flex;
+
+
+.form{
+    margin-top: 30px;
+    /* background-color: red; */
 }
-.socials .socials-r{
-    padding: 2rem 4%;
+.form input{
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
+    padding:15px;
+    flex-wrap: wrap;
 }
-    .form{
-        border: 2px solid beige;
-        
-        margin-left: 450px;
-        
-    }
-    form input{
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-        background:var(--main-color);
-        height: 30px;
-        color: black;
-        box-shadow:  0 5px 15px rgba(0, 0, 0, .06);
-    }
-    form textarea{
-        background: white;
-        color: black;
-        margin-top: 10px;
-    }
-    button{
-        /* width: 5rem; */
-        /* background: var(--main-color); */
-        /* color:var(--text-color); */
-        /* height: 30px; */
-        border-radius: 8px;
-        cursor: pointer;
-        transition: .5s ease;
-    }
+.form textarea{
+    margin-top: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
+
+}
+.form button{
+    background-color: transparent;
+}
+button input{
+    border-radius: 0;
+}
+
