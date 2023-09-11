@@ -2,14 +2,14 @@
     * {
         box-sizing: border-box;
         text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
+        /* font-family: Arial, Helvetica, sans-serif; */
         box-sizing: border-box;
         margin: 0;
         padding: 0;
         list-style-type: none;
         scroll-behavior: smooth;
         border: none;
-      
+      transition: .3s ease;
         outline: none;
       }
       
@@ -197,6 +197,317 @@
         background-color: white;
         color: var(--main-color);
     }
+
+    .div2{
+        display: none;
+
+
+
+    }
+    .vision{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        
+    }
+    .vis{
+        position: relative;
+    }
+
+
+
+   
+    .div2 a{
+        color: var(--main-color);
+        font-size: 160%;
+        margin-top: 20px;
+    }
+   
+    .div3{
+display: none;
+    }
+    .div3 a {
+        color: var(--main-color);
+        
+        margin-top: 30px;
+
+    }
+    .div3 p{
+        
+        /* margin-top: 40px; */
+        text-align: start;
+    }
+    .skills_1 .responsive-cell-block {
+        min-height: 75px;
+      }
+      
+      .skills_1 * {
+        font-family: Nunito, sans-serif;
+      }
+      
+      .skills_1 .text-blk {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        line-height: 25px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+      }
+      
+      .skills_1 a {
+        text-decoration-line: none;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+      }
+      
+      .skills_1 .responsive-container-block {
+        min-height: 75px;
+        height: fit-content;
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        justify-content: flex-start;
+      }
+      
+      .skills_1 .responsive-container-block.bigContainer {
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding: 10px 50px 10px 50px;
+      }
+      
+      .skills_1 .responsive-container-block.Container {
+        max-width: 1320px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-left: auto;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .skills_1 .text-blk.subHeading {
+        font-size: 18px;
+        color: #939393;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+      }
+      
+      .skills_1 .text-blk.heading {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: 700;
+        max-width: 550px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+      }
+      
+      .skills_1 .getInTouch {
+        background-color: var(--main-color);
+        color: white;
+        font-size: 18px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding-top: 10px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        transition: .3s ease-in-out;
+      }
+      
+      .skills_1 .getInTouch:hover {
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        transform: scale(1.05);
+      }
+      
+      .skills_1 .responsive-container-block.cardContainer {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        flex-direction: row;
+        margin-right: 20px;
+        justify-content: space-evenly;
+      }
+      
+      .skills_1 .text-blk.stats {
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 700;
+        color: #ffc91c;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+      }
+      
+      .skills_1 .text-blk.cardHeading {
+        font-size: 18px;
+        color: #939393;
+        max-width: 300px;
+      }
+      
+      .skills_1 .card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .skills_1 .responsive-cell-block.wk-desk-4.wk-ipadp-4.wk-tab-6.wk-mobile-12 {
+        display: flex;
+        min-height: auto;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+      }
+      
+      @media (max-width: 768px) {
+        .skills_1 .responsive-cell-block.wk-desk-4.wk-ipadp-4.wk-tab-6.wk-mobile-12 {
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-bottom: 30px;
+          margin-left: 0px;
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .skills_1 .card {
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .skills_1 .text-blk.cardHeading {
+          text-align: center;
+        }
+      
+        .skills_1 .text-blk.stats {
+          text-align: center;
+          font-size: 36px;
+        }
+      
+        .skills_1 .text-blk.heading {
+          font-size: 40px;
+          line-height: 45px;
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-bottom: 25px;
+          margin-left: 0px;
+        }
+      
+        .skills_1 .getInTouch {
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-bottom: 50px;
+          margin-left: 0px;
+        }
+      
+        .skills_1 .text-blk.heading {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+      
+      @media (max-width: 500px) {
+        .skills_1 .responsive-cell-block.wk-desk-4.wk-ipadp-4.wk-tab-6.wk-mobile-12 {
+          padding-top: 0px;
+          padding-right: 0px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+        }
+      
+        .skills_1 .text-blk.subHeading {
+          font-size: 18px;
+        }
+      
+        .skills_1 .text-blk.heading {
+          font-size: 26px;
+          line-height: 32px;
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-bottom: 30px;
+          margin-left: 0px;
+        }
+      
+        .skills_1 .getInTouch {
+          padding-top: 10px;
+          padding-right: 0px;
+          padding-bottom: 10px;
+          padding-left: 0px;
+          text-align: center;
+          width: 50%;
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-bottom: 50px;
+          margin-left: 0px;
+          font-size: 16px;
+          margin: 0 0 40px 0;
+        }
+      
+        .skills_1 .responsive-container-block.bigContainer {
+          padding-top: 10px;
+          padding-right: 20px;
+          padding-bottom: 10px;
+          padding-left: 20px;
+          padding: 10px 30px 10px 30px;
+        }
+      
+        .skills_1 .responsive-container-block.cardContainer {
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          margin-top: 0px;
+          margin-right: auto;
+          margin-bottom: 0px;
+          margin-left: auto;
+        }
+      
+        .skills_1 .text-blk.stats {
+          font-size: 30px;
+          margin-top: 0px;
+          margin-right: 0px;
+          margin-bottom: 10px;
+          margin-left: 0px;
+          line-height: 45px;
+        }
+      
+        .skills_1 .text-blk.cardHeading {
+          font-size: 17px;
+        }
+      }
     
     .about-container{
         display: grid;
